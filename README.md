@@ -15,7 +15,7 @@
 
 Here's a simple demonstration of RLogger in action:
 
-\```python
+```python
 from rlogger import RLogger
 
 # Initialize the logger
@@ -25,13 +25,13 @@ logger = RLogger(filename="app.log")
 logger.info("This is an info message.")
 logger.warning("This is a warning message.", data={"user": "John Doe"})
 logger.error("An error occurred!")
-\```
+```
 
 ## Configuration
 
 Customize **RLogger** to your needs during initialization:
 
-\```python
+```python
 logger = RLogger(
     filename="app.log", 
     log_level=logging.DEBUG, 
@@ -40,7 +40,7 @@ logger = RLogger(
     backup_count=5,
     log_to_console=True
 )
-\```
+```
 
 For more in-depth configurations and advanced use-cases, please refer to the official documentation.
 
